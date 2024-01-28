@@ -1,16 +1,19 @@
 <!doctype html>
 <html>
+  <head></head>
   <body>
-  
-  <div id="show"></div>
-  
-  <script src="./dist/JSMarkon.min.js"></script>
-  <script>
-    // Example usage
-   const exampleContent = "##b[Hello]##,##br## ##br## ##link[Google,https://www.google.com]## ,##list[Apple,Orange,Banana]##";
-   const result = JSMarkon(exampleContent);
-   
-   document.getElementById("show").innerHTML= result;
-  </script>
+    <div id="showContent"></div>
+
+    <script src="./dist/JSMarkon.min.js"></script>
+    <script>
+      // Value must be a string
+      const value = "#b[Markon]#, #br# #link[Markon, https://github.com/NofiniteTechnologies/markon]#, #list[Item 1, Item 2]#";
+
+      // Function returns formatted content
+      const result = JSMarkon(value);
+
+      // Render result using innerHTML
+      document.getElementById("showContent").innerHTML = result;
+    </script>
   </body>
 </html>

@@ -6,7 +6,7 @@
  */
 const ReactMarkon = ({ content }) => {
   // Split content based on ##
-  const arrayContent = content.split(/##/);
+  const arrayContent = content.split(/#/);
 
   // Regular expressions for different patterns
   const breakRegex = /br/;
