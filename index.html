@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+  <body>
+  
+  <div id="show"></div>
+  
+  <script src="./dist/JSMarkon.min.js"></script>
+  <script>
+    // Example usage
+   const exampleContent = "##b[Hello]##,##br## ##br## ##link[Google,https://www.google.com]## ,##list[Apple,Orange,Banana]##";
+   const result = JSMarkon(exampleContent);
+   
+   document.getElementById("show").innerHTML= result;
+  </script>
+  </body>
+</html>

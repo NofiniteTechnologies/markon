@@ -1,0 +1,29 @@
+{
+  "name": "markon",
+  "version": "1.0.0",
+  "description": "Markon: A lightweight JavaScript library for content formatting in React and HTML applications.",
+  "main": "dist/JSMarkon.js",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "index.js",
+    "dist/*",
+    "src/*"
+    ], 
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NofiniteTechnologies/markon.git"
+  },
+  "keywords": [
+    "markon"
+  ],
+  "author": "The Markon Authors (https://github.com/NofiniteTechnologies/markon/graphs/contributors)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NofiniteTechnologies/markon/issues"
+  },
+  "homepage": "https://github.com/NofiniteTechnologies/markon#readme"
+}
