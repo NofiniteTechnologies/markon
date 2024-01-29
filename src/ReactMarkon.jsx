@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE)
  * --------------------------------------------------------------------------
  */
+import React from 'react';
 const ReactMarkon = ({ content }) => {
   // Split content based on ##
   const arrayContent = content.split(/#/);
@@ -15,7 +16,7 @@ const ReactMarkon = ({ content }) => {
   const listRegex = /list\[(.*?)\]/;
 
   return (
-    <>
+    <React.Fragment>
       {arrayContent.map((text, index) => {
         if (breakRegex.test(text)) {
           // Render line break
@@ -47,7 +48,7 @@ const ReactMarkon = ({ content }) => {
         // Render plain text
         return text;
       })}
-    </>
+    </React.Fragment>
   );
 };
 

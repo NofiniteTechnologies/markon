@@ -17,7 +17,7 @@ function JSMarkon(content) {
   const elements = arrayContent.map((text, index) => {
     if (breakRegex.test(text)) {
       // Render line break
-      return '<br />';
+      return '<br>';
     } else if (boldRegex.test(text)) {
       // Render bold text
       let [, boldText] = text.match(boldRegex);
