@@ -4,12 +4,12 @@
   </a>
 </p>
 <p align="center">
-  <a href="https://nofinite.com">
-   <img alt="Static Badge" src="https://img.shields.io/badge/Nofinite-%23000133?style=for-the-badge&label=FROM&labelColor=slategray">
-  </a>
-  <a href="https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE">
-   <img alt="GitHub License" src="https://img.shields.io/github/license/nofinitetechnologies/markon?style=for-the-badge&labelColor=slategray&color=%23000133">
-   </a>
+  <a href="https://nofinite.com"><img alt="Static Badge" src="https://img.shields.io/badge/Nofinite-%23000133?style=for-the-badge&label=FROM&labelColor=slategray"></a>
+  
+  <a href="https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE"><img alt="GitHub License" src="https://img.shields.io/github/license/nofinitetechnologies/markon?style=for-the-badge&labelColor=slategray&color=%23000133"></a>
+  
+  <a href="https://github.com/NofiniteTechnologies/markon/blob/main/dist/JSMarkon.min.js"><img alt="GitHub file size in bytes" src="https://img.shields.io/github/size/nofinitetechnologies/markon/dist%2FJSMarkon.min.js?style=for-the-badge&logo=javascript&logoColor=white&label=gzip%20size&labelColor=slategray&color=%23000133"></a>
+  
 </p>
 
 Markon is a lightweight JavaScript library designed for effortless content formatting in React and HTML applications. Simplify text styling tasks like bolding, adding links, lists, and line breaks with Markon, allowing developers to focus on content creation without dealing with complex formatting.
