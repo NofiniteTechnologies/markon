@@ -1,5 +1,5 @@
 import React from "react";
-import ReactMarkon from "markon"
+import { ReactMarkon } from "@nofinite/markon"
 
 function App() {
     // Value must be a string

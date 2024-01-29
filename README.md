@@ -47,12 +47,12 @@ Hello **Markon**
 
 Installation:  
 ```bash
-npm install markon
+npm install @nofinite/markon
 ```   
 
 Usage in JSX:  
 ```jsx
-import { ReactMarkon } from "markon";
+import { ReactMarkon } from "@nofinite/markon";
 
 const Blog = () => {
     // Value must be a string
