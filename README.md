@@ -87,7 +87,7 @@ Usage in HTML:
 ```
 
 ## Contributors
-
+[Markon Contributors](https://github.com/NofiniteTechnologies/markon/graphs/contributors)
 
 ## License
 Markon is [MIT licensed](https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE)
