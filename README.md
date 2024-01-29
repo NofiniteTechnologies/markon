@@ -1,16 +1,30 @@
-# Markon  
-
-![Markon Logo](markon.png)
+<p align="center">
+  <a href="https://github.com/NofiniteTechnologies/markon">
+    <img src="./markon.png" alt="Markon logo" width="100%" />
+  </a>
+</p>
+<p align="center">
+  <a href="https://nofinite.com">
+   <img alt="Static Badge" src="https://img.shields.io/badge/Nofinite-%23000133?style=for-the-badge&label=FROM&labelColor=slategray">
+  </a>
+  <a href="https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE">
+   <img alt="GitHub License" src="https://img.shields.io/github/license/nofinitetechnologies/markon?style=for-the-badge&labelColor=slategray&color=%23000133">
+   </a>
+</p>
 
 Markon is a lightweight JavaScript library designed for effortless content formatting in React and HTML applications. Simplify text styling tasks like bolding, adding links, lists, and line breaks with Markon, allowing developers to focus on content creation without dealing with complex formatting.
 
 ## Markon Syntax
 Markon employs a simple and intuitive syntax to enhance text formatting:
 
-- Bold: `#b[Text]#` - Surround your text with `#b[` and `]#` to make it bold.
-- List: `#list[Item1, Item2]#` - Create a list by enclosing items in `#list[` and `]#`.
-- Link: `#link[Text, URL]#` - Insert a link with text and URL specified within `#link[` and `]#`.
-- Line Break: `#br#` - Introduce a line break with `#br#`.
+- **Bold: `#b[Text]#`**  
+  Surround your text with `#b[` and `]#` to make it bold.
+- **List: `#list[Item1, Item2]#`**  
+  Create a list by enclosing items in `#list[` and `]#`.
+- **Link: `#link[Text, URL]#`**  
+  Insert a link with text and URL specified within `#link[` and `]#`.
+- **Line Break: `#br#`**   
+  Introduce a line break with `#br#`.
 
 Example:  
 - Use Markon in Text (String):  
@@ -46,6 +60,7 @@ const Blog = () => {
 ### JSMarkon (Function):  
 
 Installation:  
+   
 Download the file: [JSMarkon.min.js](https://github.com/NofiniteTechnologies/markon/blob/main/dist/JSMarkon.min.js)   
 
 Usage in HTML:  
@@ -71,3 +86,8 @@ Usage in HTML:
 </html>
 ```
 
+## Contributors
+
+
+## License
+Markon is [MIT licensed](https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE)
