@@ -1,5 +1,5 @@
 {
-  "name": "markon",
+  "name": "@nofinite/markon",
   "version": "1.0.0",
   "description": "Markon: A lightweight JavaScript library for content formatting in React and HTML applications.",
   "main": "dist/JSMarkon.js",
