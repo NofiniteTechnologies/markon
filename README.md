@@ -16,6 +16,10 @@
    <img alt="GitHub file size in bytes" src="https://img.shields.io/github/size/nofinitetechnologies/markon/dist%2FJSMarkon.min.js?style=for-the-badge&logo=javascript&logoColor=white&label=gzip%20size&labelColor=slategray&color=%23000133">
   </a>
   
+  <a href="https://www.npmjs.com/package/@nofinite/markon">
+   <img alt="NPM Version" src="https://img.shields.io/npm/v/%40nofinite%2Fmarkon?style=for-the-badge&logo=npm&logoColor=white&labelColor=slategray&color=%23000133">
+  </a>
+  
 </p>
 
 Markon is a lightweight JavaScript library designed for effortless content formatting in React and HTML applications. Simplify text styling tasks like bolding, adding links, lists, and line breaks with Markon, allowing developers to focus on content creation without dealing with complex formatting.
