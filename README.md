@@ -29,6 +29,10 @@ Markon employs a simple and intuitive syntax to enhance text formatting:
 
 - **Bold: `#b[Text]#`**  
   Surround your text with `#b[` and `]#` to make it bold.
+- **Underline: `#u[Text]#`**
+  Surround your text with `#u[` and `]#` to make it underline.
+- **Emphasize: `#e[Text]#`**
+  Surround your text with `#e[` and `]#` to make it emphasize.
 - **List: `#list[Item1, Item2]#`**  
   Create a list by enclosing items in `#list[` and `]#`.
 - **Link: `#link[Text, URL]#`**  

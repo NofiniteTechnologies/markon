@@ -1,14 +1,13 @@
 {
   "name": "@nofinite/markon",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Markon: A lightweight JavaScript library for content formatting in React and HTML applications.",
   "main": "dist/JSMarkon.js",
   "files": [
     "LICENSE",
     "README.md",
     "index.js",
-    "dist/*",
-    "src/*"
+    "dist/*"
   ],
   "scripts": {
     "build": "rm -rf dist && babel src -d dist && npm run minify",
