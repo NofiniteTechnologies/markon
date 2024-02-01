@@ -1,20 +1,25 @@
 /**
- * --------------------------------------------------------------------------
- * Markon (JSMarkon.js)
- * Licensed under MIT (https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE)
- * --------------------------------------------------------------------------
+ * Markon (ReactMarkon.jsx)
+ * Licensed under MIT
+ * 
+ * Copyright (c) Nofinite Technologies Private Limited 
+ * 
+ * LICENSE file in the root directory of this source tree.
  */
+
 function JSMarkon(content) {
   // Split content based on ##
   const arrayContent = content.split(/#/);
 
-  // Regular expressions for different patterns
-  const breakRegex = /br/;
+  // Regular expressions for different patterns and formattings
+  const breakRegex = /\bbr\b/;
   const boldRegex = /b\[(.*?)\]/;
+  const emphasizeRegex = /e\[(.*?)\]/;
+  const underlineRegex = /u\[(.*?)\]/;
   const linkRegex = /link\[(.*?),(.*?)\]/;
   const listRegex = /list\[(.*?)\]/;
 
-  const elements = arrayContent.map((text, index) => {
+  const elements = arrayContent.map((text) => {
     if (breakRegex.test(text)) {
       // Render line break
       return '<br>';
@@ -22,10 +27,18 @@ function JSMarkon(content) {
       // Render bold text
       let [, boldText] = text.match(boldRegex);
       return `<b>${boldText}</b>`;
+    } else if (emphasizeRegex.test(text)) {
+      // Render emphasize text
+      let [, emphasizeText] = text.match(emphasizeRegex);
+      return `<em>${emphasizeText}</em>`;
+    } else if (underlineRegex.test(text)) {
+      // Render underline text
+      let [, underlineText] = text.match(underlineRegex);
+      return `<u>${underlineText}</u>`;
     } else if (linkRegex.test(text)) {
       // Render link
       let [, linkText, linkUrl] = text.match(linkRegex);
-      return `<a href="${linkUrl}" style="color: blue; font-weight: bold;">${linkText}</a>`;
+      return `<a href="${linkUrl}">${linkText}</a>`;
     } else if (listRegex.test(text)) {
       // Render list
       let [, listText] = text.match(listRegex);

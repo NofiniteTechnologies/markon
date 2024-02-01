@@ -16,6 +16,20 @@ describe('JSMarkon', () => {
     container.innerHTML = result;
     expect(container.querySelector('b')).toHaveTextContent('Hello');
   });
+  
+  test('renders emphasize text', () => {
+    const result = JSMarkon('#e[Hello]#');
+    const container = document.createElement('div');
+    container.innerHTML = result;
+    expect(container.querySelector('em')).toHaveTextContent('Hello');
+  });
+  
+  test('renders underline text', () => {
+    const result = JSMarkon('#u[Hello]#');
+    const container = document.createElement('div');
+    container.innerHTML = result;
+    expect(container.querySelector('u')).toHaveTextContent('Hello');
+  });
 
   test('renders line breaks', () => {
     const result = JSMarkon('#br#');

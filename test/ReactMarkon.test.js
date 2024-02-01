@@ -15,11 +15,21 @@ describe('ReactMarkon', () => {
     render(<ReactMarkon content="#b[Hello]#" />);
     expect(screen.getByText('Hello').closest('b')).toBeInTheDocument();
   });
+  
+  test('renders emphasize text', () => {
+    render(<ReactMarkon content="#e[Hello]#" />);
+    expect(screen.getByText('Hello').closest('em')).toBeInTheDocument();
+  });
+  
+  test('renders underline text', () => {
+    render(<ReactMarkon content="#u[Hello]#" />);
+    expect(screen.getByText('Hello').closest('u')).toBeInTheDocument();
+  });
 
   test('renders line breaks', () => {
-    render(<ReactMarkon content="#br#" />);
+    render(<ReactMarkon content="#br# #br# browser" />);
     const brElements = document.querySelectorAll('br');
-    expect(brElements.length).toBe(1);
+    expect(brElements.length).toBe(2);
   });
 
   test('renders links', () => {
