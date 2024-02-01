@@ -1,8 +1,10 @@
 /**
- * --------------------------------------------------------------------------
  * Markon (index.js)
- * Licensed under MIT (https://github.com/NofiniteTechnologies/markon/blob/main/LICENSE)
- * --------------------------------------------------------------------------
+ * Licensed under MIT
+ * 
+ * Copyright (c) Nofinite Technologies Private Limited 
+ * 
+ * LICENSE file in the root directory of this source tree.
  */
-export { default as ReactMarkon } from './src/ReactMarkon';
-export { default as JSMarkon } from './src/JSMarkon';
+export { default as ReactMarkon } from './dist/ReactMarkon.min.js';
+export { default as JSMarkon } from './dist/JSMarkon.min.js';

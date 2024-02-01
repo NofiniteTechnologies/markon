@@ -2,7 +2,9 @@
   "name": "react-app",
   "version": "0.1.0",
   "private": true,
+  "main": "index.js",
   "dependencies": {
+    "@nofinite/markon": "^1.1.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"

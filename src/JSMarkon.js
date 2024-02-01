@@ -1,5 +1,5 @@
 /**
- * Markon (JSMarkon.js)
+ * @Nofinite/Markon
  * Licensed under MIT
  * 
  * Copyright (c) Nofinite Technologies Private Limited 
