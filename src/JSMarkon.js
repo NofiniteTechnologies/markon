@@ -1,5 +1,5 @@
 /**
- * Markon (ReactMarkon.jsx)
+ * Markon (JSMarkon.js)
  * Licensed under MIT
  * 
  * Copyright (c) Nofinite Technologies Private Limited 
